@@ -45,3 +45,13 @@ window.addEventListener('scroll', function(){
   }
   oldScroll = window.scrollY;
 });
+
+var mainnav = document.querySelector('#mainav>ul');
+document.querySelector('#nav-icon1').addEventListener('click', function(){
+  document.querySelector('#nav-icon1').classList.toggle('open');
+  if (mainnav.style.display === '') {
+    mainnav.style.display = 'block';
+  } else {
+    mainnav.style.display = '';
+  }
+});
