@@ -27,3 +27,21 @@ var backTop = document.querySelector('#backtotop');
 backTop.addEventListener('click', function(){
     ScrollToResolver(document.querySelector('body'));
 });
+
+var oldScroll = 0;
+window.addEventListener('scroll', function(){
+  // var proj = document.getElementById('projects').offsetTop;
+  var header = document.querySelector('.header');
+  if (window.scrollY > 150) {
+    backTop.style.opacity = '1';
+    header.style.top = '0';
+  } else {
+    header.style.top = '';
+  }
+  if (oldScroll<window.scrollY) {
+    header.style.transform ='translateY(-150%)';
+  } else {
+    header.style.transform ='';
+  }
+  oldScroll = window.scrollY;
+});
