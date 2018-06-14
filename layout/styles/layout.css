@@ -673,7 +673,7 @@ nav ul, nav ol {
   z-index: 999;
   display: inline-block;
   position: fixed;
-  visibility: hidden;
+  /* visibility: hidden; */
   bottom: 20px;
   right: 20px;
   width: 36px;
@@ -681,7 +681,7 @@ nav ul, nav ol {
   line-height: 36px;
   font-size: 16px;
   text-align: center;
-  opacity: .2;
+  /* opacity: .2; */
 }
 
 #backtotop i {
@@ -1062,7 +1062,7 @@ input:focus, textarea:focus, *:required:focus {
 
 #backtotop {
   color: #FFFFFF;
-  background-color: #CF9C67;
+  /* background-color: #CF9C67; */
 }
 
 /* Tables + Comments */
