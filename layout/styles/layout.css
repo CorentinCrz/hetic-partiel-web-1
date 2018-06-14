@@ -776,7 +776,9 @@ td {
   background-color: #000000;
 }
 
-.faico a:hover {}
+a:hover {
+	color: #3B5998;
+}
 
 .faicon-dribble:hover {
   background-color: #EA4C89;
@@ -860,6 +862,10 @@ input:focus, textarea:focus, *:required:focus {
   color: #FFFFFF;
   background-color: #CF9C67;
   border-color: #CF9C67;
+}
+
+.fa:hover {
+  color: #CF9C67;
 }
 
 .btn:hover, .btn.inverse {
