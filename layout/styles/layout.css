@@ -157,6 +157,10 @@
   margin-bottom: 0;
 }
 
+.backgroundImg1 {
+	background-image:url('images/demo/backgrounds/01.png');
+}
+
 /* Used when elements stack in smaller viewports */
 
 .team figure figcaption {
@@ -204,6 +208,10 @@
 
 .latest>article:last-child {
   margin-bottom: 0;
+}
+
+.backgroundImg2 {
+	background-image:url('images/demo/backgrounds/02.png');
 }
 
 /* Used when elements stack in smaller viewports */
@@ -319,6 +327,10 @@
   cursor: pointer;
 }
 
+.backgroundImg3 {
+	background-image:url('images/demo/backgrounds/03.png');
+}
+
 /* Footer --------------------------------------------------------------------------------------------------------------- */
 
 #footer {
@@ -412,6 +424,10 @@ nav ul, nav ol {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.backgroundImg4 {
+	background-image:url('images/demo/backgrounds/04.png');
 }
 
 #mainav, #breadcrumb, .sidebar nav {
